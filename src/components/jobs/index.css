@@ -1,0 +1,343 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.jobs-bg-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding-top: 20px;
+  background-color: #000000;
+
+  min-height: 100vh;
+}
+
+.filters-bg-container {
+  width: 35%;
+
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.jobs-list-bg-container {
+  width: 65%;
+  /* background-color: blue; */
+  min-height: 100vh;
+}
+.user-profile-logo {
+  width: 80px;
+  height: 80px;
+  border-radius: 40px;
+  margin-bottom: 7px;
+}
+
+.profile-bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/profile-bg.png');
+  background-size: cover;
+  height: 30vh;
+  width: 80%;
+  margin-bottom: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+}
+.user-profile-name {
+  font-family: roboto;
+  color: #6366f1;
+  font-size: 20px;
+}
+
+.user-profile-para {
+  font-family: roboto;
+  color: #6366f1;
+  font-size: 15px;
+  margin-top: 7px;
+}
+.employment-type-container {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.employment-checkbox {
+  height: 16px;
+  width: 16px;
+  border: none;
+  margin-right: 9px;
+  outline: none;
+}
+.employment-type-name {
+  font-family: roboto;
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+}
+.type-of-emp-heading {
+  font-family: roboto;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.salary-type-container {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.employment-radio {
+  height: 16px;
+  width: 16px;
+  border: none;
+  margin-right: 9px;
+  outline: none;
+}
+.employment-type-salary {
+  font-family: roboto;
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+}
+.type-of-emp-heading {
+  font-family: roboto;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.type-of-employment-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 80%;
+}
+.horizontal-line {
+  width: 80%;
+}
+
+.salary-heading {
+  font-family: roboto;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.employment-salary-container {
+  margin-top: 20px;
+  width: 80%;
+}
+.search-box-container {
+  height: 40px;
+  width: 500px;
+  display: flex;
+  border-radius: 5px;
+
+  background-color: transparent;
+  border: 1px solid gray;
+}
+.search-input {
+  width: 85%;
+  height: 100%;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  padding-left: 10px;
+  color: white;
+}
+.searchButton {
+  border: none;
+  height: 100%;
+  outline: none;
+  cursor: pointer;
+  width: 15%;
+  color: white;
+  background-color: #272727;
+}
+.job-card-bg-container {
+  background-color: #272727;
+  width: 80%;
+  padding: 30px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.company-card-logo {
+  width: 90px;
+  height: 80px;
+  border-radius: 20px;
+}
+.role-heading {
+  color: white;
+  font-family: roboto;
+  font-size: 25px;
+}
+.card-rating {
+  color: #fbbf24;
+  margin-right: 7px;
+  font-size: 22px;
+}
+.card-rating-count {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.company-role-bg-container {
+  display: flex;
+  height: 80px;
+  flex-direction: row;
+  align-items: center;
+}
+.company-role-rating-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  margin-left: 13px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.rating-bg-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.location-package-bg-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.card-location-symbol {
+  color: white;
+  font-size: 20px;
+  margin-right: 9px;
+}
+.card-location-name {
+  color: white;
+  font-size: 15px;
+}
+.location-bg-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.card-type-emp-symbol {
+  color: white;
+  font-size: 20px;
+  margin-right: 9px;
+}
+.card-type-emp-name {
+  color: white;
+  font-size: 15px;
+}
+.card-employment-type-bg-container {
+  display: flex;
+  flex-direction: row;
+  margin-right: auto;
+  margin-left: 20px;
+}
+.card-package {
+  font-size: 20px;
+  font-weight: 200px;
+  color: white;
+}
+.card-description-heading {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+.card-description-para {
+  color: white;
+  font-size: 13px;
+}
+.card-description-container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.card-horizontal-line {
+  border: 0.5px solid gray;
+}
+
+.jobs-cards-bg-container {
+  margin-top: 20px;
+}
+.loader-container {
+  display: flex;
+  flex: row;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.failure-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: auto;
+}
+.failure-view-heading {
+  font-size: 40px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.failure-view-para {
+  font-size: 15px;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.failure-view-button {
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  color: white;
+  background-color: #4f46e5;
+  border: none;
+}
+.job-card-link {
+  text-decoration: none;
+}
+
+.header-bg-container {
+  background-color: #272727;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  align-items: center;
+}
+.header-logo {
+  width: 100px;
+}
+.nav-bar-links-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.nav-link {
+  text-decoration: none;
+  color: white;
+  list-style-type: none;
+  margin-right: 10px;
+}
+.header-logout-button {
+  height: 30px;
+  width: 100px;
+  border: none;
+  outline: none;
+  color: white;
+  background-color: #4f45e5;
+  border-radius: 3px;
+}
